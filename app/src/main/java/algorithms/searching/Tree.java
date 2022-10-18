@@ -1,4 +1,4 @@
-package algorithms;
+package algorithms.searching;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -6,34 +6,34 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Queue;
 
-public class BreadthFirstSearch<T> {
+public class Tree<T> {
     T value;
-    List<BreadthFirstSearch<T>> children;
+    List<Tree<T>> children;
 
-    private BreadthFirstSearch(T value) {
+    private Tree(T value) {
         this.value = value;
         this.children = new ArrayList<>();
     }
 
-    public static <T> BreadthFirstSearch<T> of(T value) {
-        return new BreadthFirstSearch<>(value);
+    public static <T> Tree<T> of(T value) {
+        return new Tree<>(value);
     }
 
-    public BreadthFirstSearch<T> addChild(T value) {
-        BreadthFirstSearch<T> newChild = new BreadthFirstSearch<>(value);
+    public Tree<T> addChild(T value) {
+        Tree<T> newChild = new Tree<>(value);
         children.add(newChild);
         return newChild;
     }
 
-    private static <T> Optional<BreadthFirstSearch<T>> search(T value, BreadthFirstSearch<T> root) {
+    private static <T> Optional<Tree<T>> BFS(T value, Tree<T> root) {
         // create a queue
-        Queue<BreadthFirstSearch<T>> queue = new ArrayDeque<>();
+        Queue<Tree<T>> queue = new ArrayDeque<>();
         // add the root
         queue.add(root);
         // until the end of the queue
         while(!queue.isEmpty()) {
             // pop the node from the queue
-            BreadthFirstSearch<T> currentNode = queue.remove();
+            Tree<T> currentNode = queue.remove();
             System.out.println("is " + currentNode.value + " == " + value + "?");
             if (currentNode.value.equals(value)) {
                 System.out.println("yes");
@@ -49,11 +49,11 @@ public class BreadthFirstSearch<T> {
     }
 
     public static void main(String[] args) {
-        BreadthFirstSearch<Integer> root = BreadthFirstSearch.of(10);
-        BreadthFirstSearch<Integer> rootFirstChild = root.addChild(2);
-        BreadthFirstSearch<Integer> depthMostChild = rootFirstChild.addChild(3);
-        BreadthFirstSearch<Integer> rootSecondChild = root.addChild(4);
+        Tree<Integer> root = Tree.of(10);
+        Tree<Integer> rootFirstChild = root.addChild(2);
+        Tree<Integer> depthMostChild = rootFirstChild.addChild(3);
+        Tree<Integer> rootSecondChild = root.addChild(4);
 
-        search(4, root);
+        BFS(4, root);
     }
 }
