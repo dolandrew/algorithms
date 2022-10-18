@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5b82d9-04c1-4efa-ab6a-b5f213e16784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/Abba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/GroupMaximize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/Matrix01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/MethodTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/math/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/searching/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/searching/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/string/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/string/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/string/Subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LongestOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/MaximumAverageSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/SubArraySlidingWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/algorithms/BreadthFirstSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/searching/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/WaterContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/WaterContainer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,17 +56,18 @@
       <recent name="$PROJECT_DIR$/app/src/main/java/algorithms" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="algorithms.arrays" />
       <recent name="algorithms.string" />
       <recent name="algorithms.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaterContainer">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.searching.BinarySearch" />
+  <component name="RunManager" selected="Application.LongestOnes">
+    <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.LongestOnes" />
       <module name="algorithms.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.searching.*" />
+          <option name="PATTERN" value="algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.string.Palindrome" />
+    <configuration name="MaximumAverageSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.MaximumAverageSubarray" />
       <module name="algorithms.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.string.*" />
+          <option name="PATTERN" value="algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.string.Subsequence" />
+    <configuration name="SubArraySlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.SubArraySlidingWindow" />
       <module name="algorithms.app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithms.string.*" />
+          <option name="PATTERN" value="algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestOnes" />
+        <item itemvalue="Application.MaximumAverageSubarray" />
+        <item itemvalue="Application.SubArraySlidingWindow" />
         <item itemvalue="Application.WaterContainer" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.Subsequence" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +201,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/string/Subsequence.java</url>
           <line>9</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/SubArraySlidingWindow.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

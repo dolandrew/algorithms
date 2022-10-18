@@ -6,10 +6,9 @@ class WaterContainer {
         int i = 0;
         int j = height.length - 1;
         int area = 0;
-        int newArea = 0;
+        int newArea;
         while (i < j) {
             newArea = (j - i) * Math.min(height[i],height[j]);
-            System.out.println(newArea);
             if (newArea > area) {
                 area = newArea;
             }
