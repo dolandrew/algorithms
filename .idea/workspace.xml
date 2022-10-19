@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5b82d9-04c1-4efa-ab6a-b5f213e16784" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LongestOnes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/MaximumAverageSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/SubArraySlidingWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/WaterContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/WaterContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LengthOfLongestSubstringTwoDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LengthOfLongestSubstringTwoDistinct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,33 @@
       <recent name="algorithms.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestOnes">
+  <component name="RunManager" selected="Application.LengthOfLongestSubstringTwoDistinct">
+    <configuration name="Abba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.math.Abba" />
+      <module name="algorithms.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LengthOfLongestSubstringTwoDistinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.LengthOfLongestSubstringTwoDistinct" />
+      <module name="algorithms.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.arrays.LongestOnes" />
       <module name="algorithms.app.main" />
@@ -88,19 +110,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.string.ReverseString" />
-      <module name="algorithms.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SubArraySlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.arrays.SubArraySlidingWindow" />
       <module name="algorithms.app.main" />
@@ -114,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaterContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.WaterContainer" />
-      <module name="algorithms.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithms.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LengthOfLongestSubstringTwoDistinct" />
+        <item itemvalue="Application.Abba" />
         <item itemvalue="Application.LongestOnes" />
         <item itemvalue="Application.MaximumAverageSubarray" />
         <item itemvalue="Application.SubArraySlidingWindow" />
-        <item itemvalue="Application.WaterContainer" />
-        <item itemvalue="Application.ReverseString" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +202,16 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/SubArraySlidingWindow.java</url>
           <line>7</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LengthOfLongestSubstringTwoDistinct.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LengthOfLongestSubstringTwoDistinct.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
