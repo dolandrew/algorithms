@@ -15,16 +15,24 @@ class LongestOnes {
             return 0;
         }
 
+        // do this before moving right pointer
         for (int i = 0; i < nums.length; i++) {
+            // check if left pointer is on 0
             if (nums[i] == 0) {
+                // increment number of 0s
                 curr++;
             }
+            // while we have more 0s than allowed
             while (curr > k) {
+                // if left pointer is on 0
                 if (nums[left] == 0) {
+                    // decrement number of 0s because
                     curr--;
                 }
+                // we are moving the left point forward
                 left++;
             }
+            // update answer to be length of window, if greater than existing
             ans = Math.max(ans, i - left + 1);
 
         }
