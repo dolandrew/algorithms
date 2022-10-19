@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c5b82d9-04c1-4efa-ab6a-b5f213e16784" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LongestOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LongestOnes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/algorithms/arrays/MinStartValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <recent name="algorithms.math" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstringTwoDistinct">
+  <component name="RunManager" selected="Application.MinStartValue">
     <configuration name="Abba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithms.math.Abba" />
       <module name="algorithms.app.main" />
@@ -110,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArraySlidingWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.SubArraySlidingWindow" />
+    <configuration name="MinStartValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.arrays.MinStartValue" />
       <module name="algorithms.app.main" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinStartValue" />
         <item itemvalue="Application.LengthOfLongestSubstringTwoDistinct" />
         <item itemvalue="Application.Abba" />
         <item itemvalue="Application.LongestOnes" />
         <item itemvalue="Application.MaximumAverageSubarray" />
-        <item itemvalue="Application.SubArraySlidingWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +213,11 @@
           <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/LengthOfLongestSubstringTwoDistinct.java</url>
           <line>26</line>
           <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/algorithms/arrays/MinStartValue.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
