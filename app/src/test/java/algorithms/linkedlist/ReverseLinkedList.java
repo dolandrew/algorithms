@@ -3,15 +3,6 @@ package algorithms.linkedlist;
 import org.junit.jupiter.api.Test;
 
 class ReverseLinkedList {
-    class ListNode {
-       int val;
-       ListNode next;
-
-       ListNode(int val, ListNode next) {
-           this.val = val;
-           this.next = next;
-       }
-   }
 
     public ListNode reverseList(ListNode head) {
         ListNode curr = head;

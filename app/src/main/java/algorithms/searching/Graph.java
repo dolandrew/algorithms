@@ -1,6 +1,10 @@
 package algorithms.searching;// Java program to print BFS traversal from a given source vertex.
 // BFS(int s) traverses vertices reachable from s.
-import java.util.*;
+
+import java.util.ArrayDeque;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 // This class represents a directed graph using adjacency list
 // representation
