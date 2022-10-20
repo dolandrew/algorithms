@@ -36,7 +36,7 @@ class IsPalindrome {
         ListNode three = new ListNode(2, four);
         ListNode two = new ListNode(1, three);
         ListNode head = new ListNode(1, two);
-        System.out.println(isPalindrome(head)
+        System.out.println(isPalindrome(head));
 
     }
 }
