@@ -22,11 +22,11 @@ class BestTimeToBuyAndSell {
         // start with left at 0 and right at 1
         while (r < prices.length) {
             // find the profit if you sold
-            int profitIfSOld = prices[r] - prices[l];
+            int profitIfSold = prices[r] - prices[l];
             // if profit would be positive
-            if (profitIfSOld > 0) {
+            if (profitIfSold > 0) {
                 // but worse than yesterday
-                if ( profitIfSOld < potential ) {
+                if ( profitIfSold < potential ) {
                     // take the profit
                     profit += potential;
                     // sell yesterday, buy tomorrow
@@ -36,7 +36,7 @@ class BestTimeToBuyAndSell {
                 } else {
                     // more profit than yesterday
                     // save this as potential profit
-                    potential = profitIfSOld;
+                    potential = profitIfSold;
 
                 }
             } else {

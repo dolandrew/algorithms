@@ -3,7 +3,9 @@ package algorithms.maps;
 import java.util.HashMap;
 import java.util.Map;
 
-class EqualRowAndColumnPairs {
+class EqualRowAndColumnPairs extends CountBalloons{
+
+
 
     public static int equalPairs(int[][] grid) {
         Map<String, Integer> dic = new HashMap<>();

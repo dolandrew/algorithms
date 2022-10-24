@@ -1,4 +1,4 @@
-package algorithms.math;
+package algorithms.linkedlist;
 
 class AddTwoNumbers {
 
@@ -23,8 +23,8 @@ class AddTwoNumbers {
         // create a pointer curr to that node
         // initialize int carry to 0
         // while the pointers point to a node, or there's carry over
-        //   get the value of the each node (it could be null at the end, in that case 0)
-        //   add them together with the carry
+        //   get the value of  each node (it could be null at the end, in that case 0)
+        //   add them together with carry
         //   carry is now sum / 10   (12 / 10 = 1)
         //   attach a node of value (sum % 10) to the result  (12 % 10 = 2)
         //   move the result pointer
